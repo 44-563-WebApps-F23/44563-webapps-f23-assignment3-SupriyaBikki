@@ -48,6 +48,28 @@
         <td>1 hour</td>
     </tr>
 </table>
+<hr/>
+<!-- <code display -->
+    <h1>Code Snippet</h1>
 
+    <blockquote>
+        how to knockout for svg text element?
+    </blockquote>
+
+<p><a href="https://stackoverflow.com/questions/19640842/how-to-knockout-for-svg-text-element">quick link on how to knockout for svg text element? </a></p>
+<pre>&lt;div class="knockout"&gt;
+  
+    &lt;svg class="knockout-text-container" width="100%" height="100%"&gt;
+      
+      &lt;rect class="knockout-text-bg" width="100%" height="100%" fill="#000" x="0" y="0" fill-opacity="1" mask="url(#knockout-text)" /&gt;
+      
+      &lt;mask id="knockout-text"&gt;
+        &lt;rect width="100%" height="100%" fill="#fff" x="0" y="0" /&gt;
+        &lt;text x="50%" y="50%" fill="#000" text-anchor="middle"&gt;Knock Out Text&lt;/text&gt;
+      &lt;/mask&gt;
+      
+    &lt;/svg&gt;
+    
+  &lt;/div&gt;</pre>
 </body>
 </html>
